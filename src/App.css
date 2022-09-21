@@ -1,0 +1,27 @@
+.link{
+    text-decoration: none;
+    color: white;
+ 
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    gap: 10px;
+}
+
+.grid img{
+    height: 200px;
+    width: 200px;
+   
+}
+.grid img:hover{
+    cursor: pointer;
+    
+}
+
+
